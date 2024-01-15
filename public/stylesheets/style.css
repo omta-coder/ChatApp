@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+#main{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.conversationArea{
+  height: 80vh;
+  width: 40vw;
+  background-color: red;
+}
+.messages{
+  height: 93%;
+  width: 100%;
+  background-color: green;
+  overflow-y: auto;
+}
+.inputes{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.inputes input{
+  width: 100%;
+  padding: 10px;
+}
+.inputes button{
+  padding: 10px;
+}
+.messages .msg{
+  padding: 10px 16px;
+  border-radius: 10px;
+  width: fit-content;
+  margin: 0 10px;
+  margin-bottom: 5px;
+}
+.messages .outgoingMessage{
+  margin-left: auto;
+}
